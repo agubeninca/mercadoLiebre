@@ -1,0 +1,84 @@
+html{
+    font-family: 'Roboto', sans-serif;
+}
+header {
+    background-color:#EAC926;
+    padding-bottom: 20px;
+}
+main{
+    margin-bottom: 50px;
+}
+footer{
+    text-align: center;
+}
+
+
+#logo{
+    margin-left: 23px;
+    margin-top: 23px;
+}
+#search-bar{
+    background-color: white;
+    width: 230px;
+    margin-left: 23px;
+    color:#666;
+}
+#search-icon{
+    background-color: white;
+    margin-left: 23px;
+}
+#en-cuotas{
+    text-align: center;
+}
+#burger-menu{
+    text-align: center;
+    background-color:#1259c3;
+    width: 40px;
+    margin-left: 165px;margin-right: 165px;
+    padding: 2px;
+    color: white;
+    font-size: 25px;
+    border-radius: 5px;
+}
+#copyright{
+    text-align: left;
+}
+#card{
+    font-size:35px; color: #1259c3;
+}
+#gift{
+    font-size:35px; color: #1259c3;
+}
+#security{
+    font-size:35px; color: #1259c3;
+}
+
+
+.cuerpo-texto{
+    font-size: 12px;
+}
+.titular{
+    font-size: 24px;
+}
+.precio{
+    font-size: 18px;
+}
+.descuento-descripcion{
+    font-size: 16px;
+}
+footer.h4{
+    margin: 0px;
+}
+.descripciones-footer{
+    font-size: 12px;
+    margin-bottom: 40px;
+}
+
+
+
+@media(min-width:560px){
+    
+}
+
+
+
