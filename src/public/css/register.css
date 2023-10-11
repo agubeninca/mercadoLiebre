@@ -1,0 +1,113 @@
+main.register h2.regTitle{
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 400;
+    color: #666;
+}
+main.register form{
+    margin: 12px;
+    width: 100%;
+    padding: 15px;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+form label{
+    display: block;
+    font-weight: 400;
+}
+.register form input{
+    border-radius: 5px;
+    border: none;
+    font-style: italic;
+}
+
+.radios{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+}
+#comprador,
+#vendedor{
+    margin-left: 10px;
+}
+
+.profilePh{
+    margin:16px 0 16px 0;
+}
+
+.datos input,
+#txfPassword{
+    width: 100%;
+    padding: 6px;
+    margin-bottom: 20px;
+}
+
+
+.title{
+    font-weight: 500;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.cboxes{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.cboxes input{
+    width: 10%;
+    height: 30%;
+}
+.cboxes label{
+    width: 90%;
+}
+.cboxes label,
+.cboxes input{
+    margin-bottom: 10px;
+}
+
+form div.buttons{
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+form div button{
+    background-color: #39b54a;
+    color: #fff;
+    padding: 4px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: 300ms;
+}
+form div button:hover{
+    background-color: #1259c3;
+}
+
+
+
+@media (min-width: 361px) {
+    main.register form {
+        padding: 15px;
+        width: 75%;
+        margin: auto;
+        margin-top: 12px;
+    }
+}
+
+@media (min-width: 769px) {
+    main.register form {
+        padding: 15px;
+        width: 50%;
+        max-width: 1200px;
+        margin: auto;
+        margin-top: 12px;
+    } 
+    .radios {
+        display: flex;
+        width: 70%;
+    }
+}
+
+
+
